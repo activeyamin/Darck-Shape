@@ -1,0 +1,928 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+html, body{
+    overflow-x: hidden;
+}
+h2{
+    font-size: 38px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+}
+h3{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+h4{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: open-sans;
+}
+h5{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Abril Fatface', cursive;
+}
+p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Abril Fatface', cursive;
+}
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+.main {
+	display: flex;
+	padding: 20px;
+}
+/* ===========================================
+        navber part css start
+===============================================*/
+nav{
+    width: 100%;
+    background: #000;
+}
+nav .main {
+	padding: 0 20px;
+}
+nav .main .logo {
+	padding: 20px;
+	position: relative;
+	z-index: 999;
+}
+nav .main .item{
+    margin-left: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 70%;
+}
+nav .main .item ul {
+	padding-left: 80px;
+}
+nav .main .item ul li{
+    display: inline-block;
+    text-transform: uppercase;
+    margin-left: 30px;
+}
+nav .main .item ul li a{
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    padding: .5rem .5rem;
+    position: relative;
+    z-index: 1;
+}
+nav .item ul li .nav-link::before {
+    position: absolute;
+    left: 0;
+    top: -39px;
+    content: '';
+    width: 100%;
+    height: 0;
+    background-color: #d6c6b2;
+    z-index: -1;
+    box-sizing: border-box;
+    transition: .4s;
+}
+nav .item ul li .nav-link.active {
+    color: #000;
+}
+nav .item ul li a.active::before {
+    height: 88px;
+}
+nav .item ul li a:hover::before {
+    height: 88px;
+}
+nav .item ul li:first-child {
+    color: #000;
+}
+/* ===========================================
+        navber part css end
+===============================================*/
+/* ===========================================
+        banner part css start
+===============================================*/
+#banner-part{
+    background: #08080c;
+}
+#banner-part .banner{
+    position: relative;
+}
+#banner-part .text {
+    color: white;
+    text-align: right;
+    padding-right: 22%;
+}
+#banner-part .text h4{
+    padding-top: 100px;
+    font-weight: 600;
+}
+#banner-part .text h2 {
+    text-transform: uppercase;
+    font-family: 'Abril Fatface', cursive;
+}
+#banner-part .text h3 {
+    font-size: 85px;
+    font-family: 'Abril Fatface', cursive;
+    line-height: 60px;
+    z-index: 1;
+    position: relative;
+}
+#banner-part .btn {
+    padding-bottom: 51px;
+    padding-top: 41px;
+    position: relative;
+    z-index: 1;
+    text-align: right;
+}
+#banner-part .btn a {
+    padding: 8px 16px;
+    color: #d6c6b2;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: 1px solid #d6c6b2;
+    transition: .4s;
+}
+#banner-part .btn a:first-child {
+    margin-right: 30px;
+}
+#banner-part .btn a:hover {
+    color: #222222;
+    border: 1px solid transparent;
+    background-color: #d6c6b2;
+}
+#banner-part img {
+	position: absolute;
+	top: -120px;
+	left: 17%;
+	z-index: 99;
+	width: 400px;
+}
+/* ===========================================
+        banner part css end
+===============================================*/
+/*==========================================
+        about part css start
+==============================================*/
+#about-part {
+	background: #222222;
+	display: flex;
+	padding: 50px 0;
+}
+#about-part .img {
+	width: 43%;
+	margin-left: 50px;
+}
+#about-part .img .shape{
+    position: absolute;
+    width: 33%
+}
+#about-part .img .dark{
+    position: relative;
+    width: 63%;
+    margin-left: -2px
+}
+#about-part .text{
+    width: 48%;
+    margin-left: 0;
+    text-align: left;
+}
+#about-part .text h2{
+    padding-bottom: 25px;
+    color: #d6c6b2;
+}
+#about-part .text p{
+    line-height: 24px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+#about-part .text h3{
+    color: #d6c6b2;
+    margin-top: 50px
+}
+#about-part .main .text .icon a i {
+	width: 50px;
+	height: 50px;
+	margin-top: 25px;
+	display: inline-block;
+	border: 2px solid #fff;
+	border-radius: 50%;
+	text-align: center;
+	box-sizing: border-box;
+	line-height: 50px;
+}
+#about-part .main .text i{
+    color: #fff;
+    margin-right: 20px;
+    font-size: 25px;
+    transition: .5s;
+}
+#about-part .main .text i:hover{
+    color: #000;
+    background: #d6c6b2;  
+}
+/*==========================================
+        about part css end
+==============================================*/
+/*==========================================
+        service part css start
+==============================================*/
+#service-part {
+	background: url(../images/my-service-dark.png);
+	background-size: cover;
+	padding: 50px 0;
+}
+#service-part .main {
+	padding-top: 25px;
+}
+#service-part .title h2{
+    text-align: center;
+    color: #fff;
+}
+#service-part .main .item{
+    width: 26%;
+    margin: 0 38px;
+    text-align: center;
+}
+#service-part .main .item .img .practice{
+    position: relative;
+    margin-top: 7%;
+    width: 110px;
+}
+#service-part .main .item .img .service-1{
+    position: absolute;
+    margin-left: -85px;
+    margin-top: 35px;
+    width: 65px;
+}
+#service-part .main .item h3{
+    color: #fff;
+    margin-top: 20px;  
+}
+#service-part .main .item p{
+    color: #fff;
+    margin-top: 25px;
+    line-height: 25px;
+}
+/*==========================================
+         service part css end
+==============================================*/
+/*==========================================
+       fortpolio css start
+==============================================*/
+#fortpolio-part{
+    background: #282828;
+    padding: 50px 0;
+    display: flex;
+}
+#fortpolio-part .btn {
+	display: block;
+	margin: auto;
+	background: #000;
+	padding: 15px;
+	height: 20px;
+	width: 120px;
+	border-radius: 15px;
+	transition: .4s;
+}
+#fortpolio-part .main {
+	margin-top: 25px;
+}
+#fortpolio-part .btn a{
+    color: #f1f1f1;
+}
+#fortpolio-part .btn:hover{
+    background: #f1f1f1;
+}
+#fortpolio-part .btn:hover a{
+    color: #000;
+}
+#fortpolio-part .btn h3 {
+	font-size: 18px;
+	padding: 0 10px;
+}
+#fortpolio-part .part1{
+    margin: 0 20px;
+}
+#fortpolio-part .item {
+	width: 360px;
+	position: relative;
+	margin: 20px 0;
+}
+#fortpolio-part .main .item img{
+    width: 100%;
+    height: 400px;  
+}
+#fortpolio-part .main .overlay .text{
+    text-align: center;
+    color: #000;
+}
+#fortpolio-part .main .overlay .text i{
+    margin-top: 170px;
+    font-size: 22px;
+}
+#fortpolio-part .main .overlay .text h3{
+    font-size: 18px;
+}
+#fortpolio-part .item .overlay{
+    width: 0px;
+    height: 400px;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    background: #d6c6b2;
+    position: absolute;
+    transition: .5s; 
+}
+#fortpolio-part .item:hover .overlay{
+    width: 100%;
+    opacity: .7;
+}
+#fortpolio-part .item ul li {
+	padding-bottom: 20px;
+	line-height: 60px;
+	color: #fff;
+	transition: .4s;
+	margin-top: -20px;
+}
+#fortpolio-part .item ul li h2 {
+	font-size: 32px;
+	font-weight: 600;
+}
+#fortpolio-part .item ul li h3{
+    color: bisque;
+    transition: .4s;
+}
+#fortpolio-part .item ul li h3:hover{
+    padding-left: 10px;
+}
+#fortpolio-part .item ul li h4{
+    transition: .4s;
+}
+#fortpolio-part .item ul li h4:hover{
+	color: bisque;
+    padding-left: 15px;
+}
+#fortpolio .right{
+    width: 100%;
+    margin-top: -568px; 
+}
+#fortpolio-part .main .right {
+	margin-left: 50px;
+}
+#fortpolio .right .item{
+    width: 32%;
+    height: 420px;
+    position: relative;
+}
+#fortpolio .right .item img{
+    width: 100%;
+    height: 100%; 
+}
+#fortpolio .right .item .overlay{
+    width: 0%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    background: #d6c6b2;
+    position: absolute;
+    transition: .5s;
+}
+#fortpolio .right .item:hover .overlay{
+    width: 100%;
+    opacity: .7;
+}
+#fortpolio .right .overlay .text{
+    text-align: center;
+    color: #000;
+}
+#fortpolio .right .overlay .text i{
+    margin-top: 170px;
+    font-size: 30px;
+}
+#fortpolio .right .overlay .text h3{
+    margin-top: 130px;
+    color: red;
+}
+
+#fortpolio .right a .btn h4{
+    width: 85px;
+    height: 20px;
+    background: antiquewhite;
+    text-align: center;
+    padding: 10px 10px;
+    margin-top: 50px;
+    margin-left: 380px;
+    color: #000;
+}
+/*==========================================
+        fortpolio css end
+==============================================*/
+/*==========================================
+        testimonial css start
+==============================================*/
+#testimonial-part{
+    background: url(../images/my-blog1st-img.jpg);
+    background-size: cover;
+    position: relative;
+}
+#testimonial-part .main {
+	background: rgba(0, 0, 0, 0.678);
+    padding: 50px 20px;
+}
+
+#testimonial-part .main .item2 .text p {
+	font-size: 14px;
+	width: 80%;
+}
+#testimonial-part .main .item1 {
+	width: 10%;
+	height: 100%;
+	padding-top: 60px;
+	color: #fff;
+	position: relative;
+}
+#testimonial-part .main .item1 .img2 img{
+    width: 50px;
+    position: absolute;
+}
+#testimonial-part .main .item2{
+    width: 35%;
+    padding-top: 50px;
+    color: #fff;
+}
+#testimonial-part .main .title h2{
+    text-align: center;
+    color: #fff;
+    margin-left: 40%;
+    position: absolute;
+}
+#testimonial-part .main .item2 .text {
+	margin-top: 80px;
+	margin-left: 50px;
+	width: 100%;
+}
+#testimonial-part .main .item2 .text h2{
+    font-size: 24px;
+}
+#testimonial-part .main .item2 .text p {
+	margin-top: 20px;
+	font-size: 15px;
+	width: 90%;
+}
+/*==========================================
+        testimonial css end
+==============================================*/
+/*==========================================
+        pricing css start
+==============================================*/
+#pricing-part .title h2{
+    text-align: center;
+    padding: 20px 0;
+    color: #fff;
+}
+#pricing-part{
+    background: #000;
+    padding: 40px 0;
+}
+#pricing-part .item{
+    width: 31%;
+    text-align: center;
+    color: #fff;
+    transition: .6s;
+    padding-bottom: 20px;
+}
+#pricing-part .item:hover{
+    background: antiquewhite;
+    color: #000;
+}
+#pricing-part .item:hover h3{
+    color: #000;
+}
+#pricing-part .item:hover h5{
+    color: #000;
+}
+#pricing-part .item:hover h4{
+    color: #000;
+    border: 2px solid #000;
+}
+#pricing-part .item:hover .after{
+    background: #000;
+}
+#pricing-part .item .after {
+	width: 35%;
+	height: 1px;
+	background: #fff;
+	margin: 0 auto;
+}
+#pricing-part .item h3 {
+	background: antiquewhite;
+	padding: 20px 10px;
+	color: #000;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+}
+#pricing-part .item img{
+    width: 50px;
+}
+#pricing-part .item p {
+	margin-top: 18px;
+}
+#pricing-part .item ul li {
+	line-height: 35px;
+	margin: 15px 0;
+}
+#pricing-part .item h5{
+    margin: 10px 0;
+    color: #fff;
+}
+#pricing-part .item a{
+    margin: 10px 0;
+}
+#pricing-part .item h4 {
+	padding: 10px 15px;
+	color: #fff;
+	line-height: 30px;
+    border: 2px solid #fff;
+}
+/*==========================================
+         pricing css end
+==============================================*/
+/*==========================================
+         My Blog css start
+==============================================*/
+#blog-part {
+	background: #282828;
+	padding: 50px 0;
+	position: relative;
+}
+#blog-part .main {
+	margin-top: 25px;
+}
+#blog-part .main .title h2{
+    color: #fff;
+    position: absolute;
+    margin-left: 45%;
+    top: 25px;
+}
+#blog-part .main .item{
+    width: 27%;
+    height: 314px;
+    position: relative;
+}
+#blog-part .main .item img{
+    width: 100%;
+    height: 100%;
+}
+#blog-part .main .item .overlay{
+    width: 100%;
+    height: 100%;
+    background: antiquewhite;
+    opacity: .6;
+    margin-top: -318px;
+    position: absolute;
+}
+#blog-part .main .item .overlay h2{
+    text-align: right;
+    color: #fff;
+    padding-top: 10px;
+    margin-right: 45px;
+}
+#blog-part .main .item .overlay h3{
+    text-align: right;
+    color: #fff;
+    margin-top: 10px;
+    margin-right: 22px;
+}
+#blog-part .main .item2{
+    width: 30%;
+    background: #000;
+    padding-bottom: 10px;
+}
+#blog-part .main .item2 .btn p {
+	color: antiquewhite;
+	text-align: right;
+	margin-right: 50px;
+	display: inline-block;
+	padding-left: 30px;
+}
+#blog-part .main .item2 .btn a {
+	margin-top: 20px;
+}
+#blog-part .main .item3 {
+	width: 35%;
+	height: 314px;
+	margin-left: 30px;
+}
+#blog-part .main .item3 img{
+    width: 100%;
+    height: 100%;
+}
+#blog-part .main .item2 .text a{
+    display: flex;
+    padding-top: 20px;
+    color: #fff;
+    font-size: 10px;
+}
+#blog-part .main .item2 .text a i{
+    margin-left: 30px;
+    font-size: 10px;
+}
+#blog-part .main .item2 .text a p {
+	margin-left: 10px;
+	margin-top: -5px;
+}
+#blog-part .main .item2 h4 {
+	padding: 13px 30px;
+	color: antiquewhite;
+}
+#blog-part .main .item2 h5 {
+	margin: 5px 28px;
+	color: #fff;
+	font-size: 14px;
+    line-height: 25px;
+}
+.blog_part2{
+    width: 100%;
+    height: 400px;
+    background: #282828;
+}
+.blog_part2{
+    margin-top: 10px;
+}
+.blog_part2 .img1 {
+	width: 27%;
+	height: 320px;
+}
+.blog_part2 .img1 img{
+    width: 100%;
+    height: 100%;
+}
+
+.blog_part2 .main .text2 .btn p{
+    color: antiquewhite;
+    text-align: right;
+    margin-right: -90px;
+    margin-top: -40px;
+}
+.blog_part2 .text2 {
+	width: 30%;
+	background: #000;
+}
+.blog_part2 .text2 .text {
+	padding-top: 10px;
+}
+.blog_part2 .main .text2 .text a {
+	display: flex;
+	padding-top: 20px;
+	color: #fff;
+	font-size: 12px;
+	padding-left: 0px;
+}
+.blog_part2 .main .text2 .text i{
+    margin-left: 20px;
+}
+.blog_part2 .main .text2 .text p {
+	margin-left: 10px;
+	margin-top: -5px;
+}
+.blog_part2 .main .text2 a {
+	padding-left: 10px;
+}
+.blog_part2 .main .text2 p {
+	margin: 17px 10px;
+	color: antiquewhite;
+	font-size: 15px;
+	display: inline-block;
+}
+.blog_part2 .main .text2 h4 {
+	color: #fff;
+	padding-left: 20px;
+	padding-bottom: 15px;
+}
+.blog_part2 .main .text2 h5 {
+	margin: 0px 20px;
+	color: #fff;
+	position: relative;
+	font-weight: 400;
+	font-size: 15px;
+	padding-bottom: 10px;
+}
+.blog_part2 .main a .Btn{
+    width: 140px;
+    height: 27px;
+    background: antiquewhite;
+    color: #000;
+    position: absolute;
+    padding: 10px 10px;
+    text-align: center;
+    margin-top: 310px;
+    margin-left: -160px;
+}
+.blog_part2 .main .img3 {
+	width: 31.5%;
+	margin-left: 30px;
+	background: antiquewhite;
+	color: #000;
+	padding: 20px;
+}
+.blog_part2 .main .img3 .btn {
+	margin-left: 10px;
+}
+.blog_part2 .main .img3 .btn p {
+	color: #000;
+	text-align: right;
+	margin-right: 50px;
+	margin-top: 20px;
+	display: inline-block;
+}
+.blog_part2 .main .img3 .text a{
+    display: flex;
+    padding-top: 10px;
+    color: #000;
+    font-size: 12px;
+}
+.blog_part2 .main .img3 .text i{
+    margin-left: 10px;
+}
+.blog_part2 .main .img3 h4 {
+	padding-top: 20px;
+	width: 73%;
+	padding-left: 10px;
+}
+.blog_part2 .main .img3 .text p {
+	margin: 0 10px;
+	margin-top: -5px;
+}
+.blog_part2 .main .img3 h5 {
+	margin: 15px 10px;
+	color: #000;
+	font-weight: 400;
+	font-size: 14px;
+    line-height: 25px;
+    width: 84%;
+}
+.blog_part2 .button{
+	text-align: center;
+	display: block;
+	margin: 20px auto;
+	background: #000;
+	padding: 15px;
+	height: 20px;
+	width: 140px;
+	border-radius: 10px;
+    transition: .4s;
+}
+.blog_part2 .button a{
+    color: #f1f1f1;
+}
+.blog_part2 .button a h3{
+    font-size: 18px;
+}
+.blog_part2 .button:hover{
+    background: #f1f1f1;
+}
+.blog_part2 .button:hover a{
+    color: #000;
+}
+/*==========================================
+         My Blog css end
+==============================================*/
+/*==========================================
+         contact css start
+==============================================*/
+#contact-part {
+	background: #000;
+	padding: 50px 0;
+}
+#contact-part .main {
+	position: relative;
+    padding: 0;
+}
+#contact-part .main .tach {
+	background: #282828;
+	color: #fff;
+	width: 30%;
+	padding: 25px;
+}
+#contact-part .main .tach a h3{
+	margin: 0 25px;
+	padding-bottom: 10px;
+	color: #fff;
+}
+#contact-part .main .tach a i{
+    margin-left: 25px;
+    position: absolute;
+    line-height: 50px;
+    color: antiquewhite;
+}
+#contact-part .main .tach a p{
+     margin-left: 65px;
+     position: relative;
+    line-height: 50px;
+    color: antiquewhite;
+}
+#contact-part .main .follow {
+	position: absolute;
+	bottom: 100px;
+	padding: 0 25px;
+	margin-left: 25px;
+}
+#contact-part .main .follow h3{
+    color: #fff;
+    margin-top: 60px;  
+}
+#contact-part .main .follow .icon i:nth-child(2) {
+	width: 14px;
+	text-align: center;
+}
+#contact-part .main .follow .icon i {
+	margin: 10px;
+	color: #000;
+	background: #fff;
+	padding: 10px;
+	border-radius: 50%;
+	transition: .4s;
+	margin-left: 0;
+    font-size: 14px;
+}
+#contact-part .main .follow .icon i:hover{
+    background: #000;
+    color: #f1f1f1;
+}
+
+#contact-part .main .from {
+	width: 62%;
+	background: #282828;
+}
+#contact-part .main .from .massage h3{
+    color: #fff;
+    margin-left: 20px;
+}
+#contact-part .main .from .massage {
+	padding: 25px 20px;
+}
+#contact-part .main .from .massage input{
+    width: 95%;
+    margin: 10px 20px;
+    height: 40px;
+    background: #000;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+}
+#contact-part .main .from .massage input::placeholder{
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 400; 
+}
+#contact-part .main .from .massage textarea{
+    width: 95%;
+    height: 200px;
+    margin: 10px 20px;
+    background: #000;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+}
+/*==========================================
+         contact css end
+==============================================*/
+/*==========================================
+         bottom css start
+==============================================*/
+#bottom-part{
+    background: #282828;
+    padding: 20px 0;
+}
+#bottom-part h4{
+    text-align: center;
+    color: #fff;
+    padding: 30px 0;
+    position: relative;
+}
+#bottom-part .booster a{
+    text-align: right;
+    position: relative;
+    margin-left: auto;
+    margin-top: -80px;
+    display: block;
+}
+/*==========================================
+        bottom css end
+==============================================*/

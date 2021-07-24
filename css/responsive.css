@@ -1,0 +1,1148 @@
+@media(min-width: 320px) and (max-width: 575px){
+/* =========nav responsive start========= */
+.main {
+    padding: 0px !important;
+}
+h2 {
+    font-size: 20px;
+    font-weight: 600;
+}
+h3 {
+	font-size: 20px;
+	font-weight: 500;
+}
+nav {
+
+	padding: 20px 10px;
+}
+nav .logo img {
+    width: 100%;
+    display: block;
+    margin-left: 0;
+}
+nav .main .logo {
+	padding: 0px;
+	width: 6%;
+	height: 30%;
+}
+nav .main .item {
+	width: auto;
+	margin: 0;
+	margin-bottom: 18px;
+}
+nav .item ul li .nav-link::before {
+	opacity: 0;
+}
+nav .item ul li .nav-link.active {
+	color: #fff;
+}
+nav .main .item ul {
+	padding-left: 90px;
+}
+nav .main .item ul li {
+	text-transform: capitalize;
+	margin-left: 30px;
+	display: block;
+}
+/* =========nav responsive end========= */
+/* =========banner responsive start========= */
+#banner-part .img {
+	width: 16%;
+	height: 100%;
+	position: absolute;
+	margin-top: -254px;
+}
+#banner-part img {
+    top: -76%;
+    left: 0;
+    width: 100%;
+}
+#banner-part .text {
+	display: none;
+}
+/* =========banner responsive end========= */
+/* =========about responsive start========= */
+#about-part {
+	padding: 50px 0;
+}
+#about-part .img {
+	margin: 0 auto;
+	width: 50%;
+	position: absolute;
+}
+#about-part .img .shape {
+	width: auto;
+	height: 97%;
+	margin: 0 78px;
+}
+#about-part .img .dark {
+	width: 100%;
+	margin: 0px 77px;
+}
+#about-part .text {
+	width: auto;
+	text-align: center;
+	padding: 10px;
+	margin-top: 70%;
+}
+#about-part .text h3 {
+	margin-top: 30px;
+}
+#about-part .main .text .icon a i {
+	width: 30px;
+	height: 30px;
+	border: 1px solid #fff;
+	padding: 0px;
+	line-height: 30px;
+    margin-top: 25px;
+}
+#about-part .main .text i {
+	font-size: 14px;
+}
+/* =========about responsive end========= */
+/* =========service responsive start========= */
+#service-part .main .item {
+	width: 23%;
+	padding: 0 10px;
+	margin-top: 70px;
+}
+#service-part .title h2 {
+	position: absolute;
+	margin: 0px 31%;
+}
+#service-part .main .item:nth-child(1){
+	margin-left: 0px;
+}
+/* =========service responsive end========= */
+/* =========fortpolio responsive start========= */
+#fortpolio-part {
+	padding-top: 0px;
+}
+#fortpolio-part .main {
+	display: block;
+}
+#fortpolio-part .main .right {
+	margin-left: 100px;
+}
+#fortpolio-part .item ul li h2 {
+	font-size: 24px;
+	margin-top: 20px;
+}
+#fortpolio-part .btn {
+	width: auto;
+    margin: 20px auto;
+}
+#fortpolio-part .btn a {
+	margin-left: 9%;
+}
+#fortpolio-part .btn h3 {
+	font-size: 18px;
+	padding-left: 60px;
+}
+#fortpolio-part .part1 {
+	margin: 0;
+}
+/* =========fortpolio responsive end========= */
+/* =========testimonial responsive start========= */
+#testimonial-part .main .title h2 {
+	padding: 15px 0;
+	margin-left: 35%;
+}
+#testimonial-part .main .item1 {
+	width: auto;
+	margin-left: 100px;
+}
+#testimonial-part .main .item2 {
+	width: auto;
+	padding-top: 200px;
+}
+#testimonial-part .main .item2 .text {
+	margin-top: 110px;
+	margin-left: -220px;
+	width: 65%;
+	text-align: center;
+}
+#testimonial-part .main .item2 .text p {
+	width: auto;
+}
+/* =========testimonial responsive end========= */
+/* =========pricing responsive start========= */
+#pricing-part {
+	padding: 10px 0;
+}
+#pricing-part .item {
+	margin-left: -40px;
+}
+#pricing-part .main {
+	display: block;
+}
+#pricing-part .title h2 {
+	text-align: left;
+	margin-left: 10%;
+}
+/* =========pricing responsive end========= */
+
+/* =========blog responsive start========= */
+#blog-part .main{
+	display: block;
+	margin-top: 0;
+}
+#blog-part .main .item2 .text a {
+	padding-top: 0;
+}
+#blog-part .main .item2 {
+	padding: 20px 0;
+}
+#blog-part .main .item2 .text a i {
+	margin-left: 20px;
+}
+#blog-part .main .item2 .text a p {
+	margin-top: -5px;
+	margin-left: 5px;
+}
+#blog-part .main .item2 h4 {
+	padding: 13px 20px;
+	width: 73%;
+}
+#blog-part .main .item2 h5 {
+	margin: 5px 20px;
+	width: 71%;
+}
+#blog-part .main .item2 .btn p {
+	margin-top: -20px;
+}
+#blog-part .main .item2 .btn a {
+	padding-left: 20px;
+	padding-top: 10px;
+}
+#blog-part .main .item2 .btn p {
+	margin-top: -20px;
+	display: inline-block;
+	margin-right: 50px;
+}
+#blog-part .main .title h2 {
+	margin-left: 42%;
+	top: 0px;
+}
+#blog-part .main .item3 {
+	margin-left: 0;
+}
+.blog_part2 .main .img3 {
+	width: auto;
+	margin-left: 0;
+}
+#blog-part {
+	padding: 0;
+	background: #000;
+}
+.blog_part2 {
+	height: 100%;
+}
+.blog_part2 .text2 {
+	padding: 20px 0;
+}
+.blog_part2 .text2 .text {
+	width: auto;
+	padding-left: 10px;
+}
+.blog_part2 .main .text2 .text i {
+	margin-left: 10px;
+}
+.blog_part2 .main .text2 h4 {
+	margin: 20px 20px;
+}
+.blog_part2 .main .text2 h5 {
+	margin: 0px 20px;
+	font-size: 14px;
+	padding-bottom: 0;
+	width: 73%;
+}
+.blog_part2 .main .img3 .text p {
+	margin: 0 5px;
+	margin-top: -4px;
+	padding-top: 0;
+	padding-left: 5px;
+}
+.blog_part2 .main .text2 .text a {
+	padding-top: 0;
+}
+.blog_part2 .main .img3 .text i {
+	margin-left: 4px;
+}
+.blog_part2 .main .img3 h4 {
+	padding-left: 0;
+	width: 21%;
+	padding-top: 20px;
+}
+.blog_part2 .main .img3 h5 {
+	margin: 15px 0px;
+	font-size: 13px;
+	width: 23%;
+}
+.blog_part2 .main .img3 .btn p {
+	padding-left: 0;
+	display: inline-block;
+	margin: 0;
+	padding-right: 50px;
+	padding-top: 10px;
+}
+.blog_part2 .button {
+	margin: 0 100px;
+	padding: 10px;
+	width: 100px;
+	margin-top: 20px;
+}
+.blog_part2 .button a h3 {
+	font-size: 14px;
+}
+/* =========blog responsive end========= */
+/* =========contact responsive start========= */
+#contact-part {
+	background: #000;
+	padding: 0;
+}
+#contact-part .main .tach {
+	padding-left: 0;
+}
+#contact-part .main .follow {
+	position: absolute;
+	bottom: 54%;
+	margin-left: 0px;
+}
+#contact-part .main .from {
+	width: auto;
+	margin-left: -33%;
+	position: relative;
+	margin-top: 25%;
+}
+#contact-part .main .from .massage input {
+	width: 44%;
+}
+#contact-part .main .from .massage textarea {
+	width: 44%;
+	height: 130px;
+	margin: 10px 20px;
+}
+/* =========contact responsive end========= */
+/* =========bottom responsive start========= */
+#bottom-part h4 {
+	text-align: left;
+	font-size: 13px;
+	padding-left: 35px;
+}
+#bottom-part .booster a {
+	margin-top: -82px;
+	width: 33px;
+}
+#bottom-part {
+	background: #000;
+	padding: 10px 0;
+}
+#contact-part .main .follow .icon i {
+	padding: 7px;
+	font-size: 10px;
+	width: 11px !important;
+}
+/* =========bottom responsive end========= */
+
+}
+
+@media(min-width: 576px) and (max-width: 767px){
+	/* =========nav responsive start========= */
+	.main {
+		padding: 0px !important;
+	}
+	h2 {
+		font-size: 20px;
+		font-weight: 600;
+	}
+	h3 {
+		font-size: 20px;
+		font-weight: 500;
+	}
+	nav .main .logo {
+		padding: 10px;
+		width: 6%;
+		height: 30px;
+	}
+	nav .logo img {
+		width: 100%;
+		display: block;
+		margin-left: 0;
+	}
+	nav .main .item {
+		margin-left: 0;
+		width: auto;
+	}
+	nav .item ul li a.active::before {
+		height: 70px;
+	}
+	nav .item ul li a:hover::before {
+		height: 70px;
+	}
+	nav .main .item ul {
+		padding-left: 120px;
+	}
+	nav .main .item ul li {
+		text-transform: capitalize;
+		margin-left: 0px;
+	}
+	nav .main .item ul li a {
+		font-size: 14px;
+	}
+	/* =========nav responsive end========= */
+	/* =========banner responsive start========= */
+	#banner-part .img {
+		width: 100%;
+		height: 100%;
+		position: absolute;
+	}
+	#banner-part img {
+		top: -44px;
+		left: 20px;
+		width: 20%;
+		height: 113%;
+	}
+	#banner-part .text {
+		padding-right: 58%;
+		margin-top: -50px;
+	}
+	#banner-part .text h3 {
+		font-size: 58px;
+	}
+	#banner-part .btn a:first-child {
+		margin-right: 10px;
+	}
+	#banner-part .btn a {
+		font-size: 14px;
+	}
+	/* =========banner responsive end========= */
+	/* =========about responsive start========= */
+	#about-part {
+		padding: 50px 0;
+	}
+	#about-part .img {
+		margin: 0 auto;
+		width: 50%;
+		position: absolute;
+	}
+	#about-part .img .shape {
+		width: auto;
+		height: 98%;
+		margin: 0px 173px;
+	}
+	#about-part .img .dark {
+		width: 100%;
+		margin: 0px 170px;
+	}
+	#about-part .text {
+		width: auto;
+		text-align: center;
+		padding: 10px;
+		margin-top: 70%;
+	}
+	#about-part .text h3 {
+		margin-top: 30px;
+	}
+	#about-part .main .text .icon a i {
+		width: 30px;
+		height: 30px;
+		border: 1px solid #fff;
+		padding: 0px;
+		line-height: 30px;
+		margin-top: 25px;
+	}
+	#about-part .main .text i {
+		font-size: 14px;
+	}
+	/* =========about responsive end========= */
+	/* =========service responsive start========= */
+	#service-part .main .item {
+		width: 28%;
+		padding: 0 10px;
+		margin-top: 70px;
+	}
+	#service-part .main .item:nth-child(1){
+		margin-left: 114px;
+	}
+	#service-part .main .item:nth-child(2){
+		display: none;
+	}
+	#service-part .main .item:nth-child(3){
+		display: none;
+	}
+	#service-part .title h2 {
+		position: absolute;
+		margin: 0px 39%;
+	}
+	/* =========service responsive end========= */
+	/* =========fortpolio responsive start========= */
+	#fortpolio-part {
+		padding-top: 0px;
+	}
+	#fortpolio-part .main {
+		display: block;
+	}
+	#fortpolio-part .main .right {
+		margin-left: 225px;
+	}
+	#fortpolio-part .item ul li h2 {
+		font-size: 24px;
+		margin-top: 20px;
+	}
+	#fortpolio-part .btn {
+		margin: 20px auto;
+		padding: 10px;
+	}
+	#fortpolio-part .btn a {
+		margin-left: 11%;
+	}
+	#fortpolio-part .btn h3 {
+		font-size: 16px;
+	}
+	#fortpolio-part .part1 {
+		margin: 0;
+	}
+	#fortpolio-part .item {
+		margin: 0;
+		height: 430px;
+		width: auto;
+	}
+	/* =========fortpolio responsive end========= */
+	/* =========testimonial responsive start========= */
+	#testimonial-part .main .title h2 {
+		padding: 15px 0;
+		margin-left: 42%;
+	}
+	#testimonial-part .main .item1 {
+		width: auto;
+		margin-left: 225px;
+	}
+	#testimonial-part .main .item2 {
+		width: auto;
+		padding-top: 200px;
+	}
+	#testimonial-part .main .item2 .text {
+		margin-top: 110px;
+		margin-left: -145%;
+		width: auto;
+		text-align: center;
+	}
+	#testimonial-part .main .item2 .text p {
+		width: 60%;
+		margin: 15px auto;
+	}
+	/* =========testimonial responsive end========= */
+	/* =========pricing responsive start========= */
+	#pricing-part .item {
+		margin-left: 0px;
+		width: 45%;
+	}
+	#pricing-part .main {
+		display: block;
+	}
+	#blog-part .main .item {
+		width: 44%;
+		height: 400px;
+	}
+	#blog-part .main .item .overlay {
+		margin-top: -69.7%;
+	}
+	/* =========pricing responsive end========= */
+	
+	/* =========blog responsive start========= */
+	#blog-part .main{
+		display: block;
+		margin-top: 0;
+	}
+	#blog-part .main .item2 .text a {
+		padding-top: 0;
+		margin-left: 135px;
+	}
+	#blog-part .main .item2 {
+		padding: 20px 0;
+		text-align: center;
+		width: 45%;
+	}
+	#blog-part .main .item2 .text a i {
+		margin-left: 20px;
+	}
+	#blog-part .main .item2 .text a p {
+		margin-top: -5px;
+		margin-left: 5px;
+	}
+	#blog-part .main .item2 h4 {
+		padding: 13px 20px;
+	}
+	#blog-part .main .item2 h5 {
+		margin: 5px 20px;
+	}
+	#blog-part .main .item2 .btn p {
+		margin-top: -20px;
+	}
+	#blog-part .main .item2 .btn a {
+		padding-left: 20px;
+		padding-top: 10px;
+	}
+	#blog-part .main .item2 .btn p {
+		margin-top: -20px;
+		display: inline-block;
+		margin-right: 50px;
+	}
+	#blog-part .main .item2 {
+		padding: 50px 0;
+	}
+	#blog-part .main .title h2 {
+		margin-left: 42%;
+		top: 0px;
+	}
+	#blog-part .main .item3 {
+		margin-left: 0;
+		width: 45%;
+		height: 400px;
+	}
+	.blog_part2 .img1 {
+		width: 45%;
+		height: 400px;
+	}
+	.blog_part2 .main .img3 {
+		width: 100%;
+		margin-left: 0;
+		text-align: center;
+		padding: 20px 120px;
+	}
+	#blog-part {
+		padding: 0;
+		background: #000;
+	}
+	.blog_part2 {
+		height: 100%;
+	}
+	.blog_part2 .text2 {
+		padding: 50px 0;
+		text-align: center;
+		width: 45%;
+	}
+	.blog_part2 .text2 .text {
+		width: auto;
+		padding-left: 10px;
+	}
+	.blog_part2 .text2 .text a {
+		margin-left: 100px;
+	}
+	.blog_part2 .main .text2 .text i {
+		margin-left: 10px;
+	}
+	.blog_part2 .main .text2 h4 {
+		margin: 0px 20px;
+	}
+	.blog_part2 .main .text2 h5 {
+		margin: 0px 20px;
+		font-size: 14px;
+		padding-bottom: 0;
+		width: auto;
+	}
+	.blog_part2 .main .img3 .text p {
+		margin: 0 5px;
+		margin-top: -4px;
+		padding-top: 0;
+		padding-left: 5px;
+	}
+	.blog_part2 .main .text2 .text a {
+		padding-top: 0;
+	}
+	.blog_part2 .main .text2 p {
+		margin: 17px 20px;
+	}
+	.blog_part2 .main .img3 .text i {
+		margin-left: 4px;
+	}
+	.blog_part2 .main .img3 h4 {
+		padding-left: 0;
+		width: 21%;
+		padding-top: 20px;
+	}
+	.blog_part2 .main .img3 h5 {
+		margin: 15px 0px;
+		font-size: 13px;
+		width: 23%;
+	}
+	.blog_part2 .main .img3 .btn p {
+		padding-left: 0;
+		display: inline-block;
+		margin: 0;
+		padding-right: 50px;
+		padding-top: 10px;
+	}
+	.blog_part2 .button {
+		margin: 0px 230px;
+		padding: 10px;
+		margin-top: 25px;
+	}
+	.blog_part2 .button a h3 {
+		font-size: 14px;
+	}
+	/* =========blog responsive end========= */
+	/* =========contact responsive start========= */
+	#contact-part {
+		background: #000;
+		padding: 0;
+	}
+	#contact-part .main .tach {
+		padding-left: 0;
+	}
+	#contact-part .main .follow {
+		position: absolute;
+		bottom: 50%;
+		margin-left: 0px;
+	}
+	#contact-part .main .from .massage input {
+		display: block;
+	}
+	#contact-part .main .from {
+		width: auto;
+		position: relative;
+		margin-top: 30%;
+	}
+	#contact-part .main .tach {
+		width: 100%;
+	}
+	#contact-part .main .from {
+		width: 93%;
+		margin-left: -103%;
+		margin-top: 27%;
+	}
+	#contact-part .main .from .massage input {
+		width: 44%;
+	}
+	#contact-part .main .from .massage textarea {
+		width: 44%;
+		height: 130px;
+		margin: 10px 20px;
+	}
+	/* =========contact responsive end========= */
+	/* =========bottom responsive start========= */
+	#bottom-part h4 {
+		text-align: left;
+		font-size: 13px;
+		padding-left: 35px;
+	}
+	#bottom-part .booster a {
+		margin-top: -82px;
+		width: 33px;
+	}
+	#bottom-part {
+		background: #000;
+		padding: 10px 0;
+	}
+	/* =========bottom responsive end========= */
+	
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+
+	nav .main .logo {
+		padding: 10px;
+		width: 9%;
+	}
+	nav .main .logo img {
+		width: 100%;
+	}
+	nav .main .item {
+		margin-left: 10px;
+		display: block;
+	}
+	nav .main .item ul {
+		padding-left: 135px;
+	}
+	nav .main .item ul li a {
+		font-size: 17px;
+	}
+	#banner-part img {
+		top: -100px;
+		left: 75px;
+		width: 25%;
+		height: 128%;
+	}
+	nav .main .item ul li {
+		text-transform: capitalize;
+		margin-left: 10px;
+	}
+	#banner-part .text {
+		padding-right: 45%;
+	}
+	#banner-part .text h3 {
+		font-size: 68px;
+	}
+	#about-part .text p:nth-child(2){
+		display: none;
+	}
+	#about-part .main .text .icon a i {
+		width: 30px;
+		height: 30px;
+		margin-top: 15px;
+		line-height: 30px;
+		font-size: 14px;
+	}
+	#about-part .text p {
+		margin-bottom: -20px;
+	}
+	#about-part .text h2 {
+		padding-bottom: 20px;
+	}
+	h2 {
+		font-size: 32px;
+		font-weight: 600;
+	}
+	.main {
+		padding: 0;
+	}
+	#blog-part .main {
+		padding: 10px 0;
+	}
+	#service-part .title h2 {
+		margin: 0px 37%;
+	}
+	#service-part .main .item:nth-child(1) {
+		margin-left: 10px;
+		margin-top: 0px;
+	}
+	#fortpolio-part .btn h3 {
+		padding-left: 15px;
+	}
+	/* ==========service responsive start========== */
+	#service-part .title h2 {
+		margin-left: 0;
+	}
+	h2{
+		font-size: 22px !important;
+	}
+	h3 {
+		font-size: 18px;
+		font-weight: 600;
+		font-family: 'Open Sans', sans-serif;
+	}
+	#service-part .main .item {
+		width: 26%;
+		margin: 0 10px;
+	}
+	#service-part .main .item:nth-child(2) {
+		width: 26%;
+		margin: 0 25px;
+	}
+	#service-part .main .item:nth-child(3) {
+		display: none;
+	}
+/* ==========service responsive end========== */
+/* ==========testimonial responsive start========== */
+	#fortpolio-part .item {
+		width: 250px;
+	}
+	#testimonial-part .main .item2 {
+		width: 20%;
+	}
+	#testimonial-part .main {
+		padding: 30px 10px;
+	}
+	#testimonial-part .main .item2 .text {
+		margin-left: 20px;
+	}
+	#testimonial-part .main .item2 .text i {
+		font-size: 14px;
+	}
+/* ==========testimonial responsive end========== */
+/* ==========pricing responsive start========== */
+	#pricing-part .item:nth-child(3){
+		display: none;
+	}
+/* ==========pricing responsive end========== */
+/* ==========blog responsive start========== */
+	#blog-part .main .item {
+		width: 30%;
+	}
+	#blog-part .main .item2 {
+		width: 28%;
+	}
+	#blog-part .main .item2 .text a p {
+		margin-left: 5px;
+	}
+	#blog-part .main .item3 img {
+		display: none;
+	}
+	.blog_part2 .img1 {
+		width: 30%;
+	}
+	.blog_part2 .text2 {
+		width: 26%;
+		padding: 0 10px;
+	}
+	.blog_part2 .main .text2 .text a {
+		padding-left: 20px;
+	}
+	.blog_part2 .main .text2 .text p {
+		margin-left: 10px;
+	}
+	.blog_part2 .main .text2 .text i {
+		margin-left: 0px;
+	}
+	.blog_part2 .main .img3 {
+		display: none;
+	}
+	.blog_part2 .main .img3 h4 {
+		width: 96%;
+	}
+	.blog_part2 .main .img3 h5 {
+		width: 100%;
+		line-height: 20px;
+	}
+	.blog_part2 .main .img3 .btn p {
+		margin-top: 0px;
+		padding-left: 10px;
+	}
+	.blog_part2 .main .img3 .text i {
+		margin-left: 10px;
+	}
+	.blog_part2 .main .img3 .text p {
+		margin: 0 1px;
+		margin-top: -1px;
+		font-size: 11px;
+	}
+	.blog_part2 .button {
+		margin-left: 30%;
+	}
+	.blog_part2 .button a h3 {
+		font-size: 15px;
+	}
+/* ==========blog responsive end========== */
+/* ==========contact responsive start========== */
+	#contact-part .main .from {
+		width: 100%;
+	}
+	#contact-part .main .from .massage input {
+		width: 40%;
+		margin: 10px;
+		display: block;
+	}
+	#contact-part .main .from .massage textarea {
+		width: 40%;
+		height: 150px;
+		margin: 10px;
+	}
+	#contact-part .main .follow {
+		bottom: 18px;
+	}
+	#bottom-part {
+		padding: 0px;
+	}
+	#bottom-part h4 {
+		text-align: left;
+		padding: 30px 20%;
+	}
+/* ==========contact responsive end========== */
+	
+}
+
+@media(min-width: 992px) and (max-width: 1199px){
+/* ==========nav responsive start========== */
+	nav .main .item ul li a {
+		font-size: 17px;
+	}
+	nav .main .item {
+		margin-left: 100px;
+		display: block;
+	}
+
+	nav .main .item ul li {
+		margin-left: 10px;
+	}
+	/* ==========nav responsive end========== */
+/* ==========banner responsive start========== */
+	#banner-part .text {
+		padding-right: 30%;
+	}
+	#banner-part img {
+		top: -118px;
+		left: 10%;
+		width: 385px;
+	}
+/* ==========banner responsive end========== */
+/* ==========nav responsive start========== */
+	#about-part .img .dark {
+		width: 66%;
+	}
+	#about-part .text h3 {
+		margin-top: 30px;
+	}
+	#about-part .main .text .icon a i {
+		width: 40px;
+		height: 40px;
+		line-height: 37px;
+	}
+	#about-part .main .text i {
+		font-size: 16px;
+	}
+/* ==========nav responsive end========== */
+/* ==========service responsive start========== */
+	#service-part .title h2 {
+		font-size: 28px;
+		margin-left: 32%;
+		text-align: left;
+	}
+	h2{
+		font-size: 26px !important;
+	}
+	#service-part .main .item {
+		width: 32%;
+	}
+	#service-part .main .item:nth-child(2) {
+		width: 30%;
+		margin: 0 37px;
+	}
+	#service-part .main .item:nth-child(3) {
+		display: none;
+	}
+/* ==========service responsive end========== */
+/* ==========testimonial responsive start========== */
+
+	#fortpolio-part .item {
+		width: 300px;
+	}
+	#testimonial-part .main .item2 {
+		width: 20%;
+	}
+/* ==========testimonial responsive end========== */
+/* ==========pricing responsive start========== */
+	#pricing-part .item {
+		width: 25%;
+	}
+/* ==========pricing responsive end========== */
+/* ==========blog responsive start========== */
+
+	#blog-part .main .item {
+		width: 23%;
+	}
+	#blog-part .main .item2 {
+		width: 28%;
+	}
+	#blog-part .main .item2 .text a p {
+		margin-left: 5px;
+	}
+	#blog-part .main .item3 img {
+		width: 60%;
+	}
+	.blog_part2 .img1 {
+		width: 23%;
+	}
+	.blog_part2 .text2 {
+		width: 26%;
+		padding: 0 10px;
+	}
+	.blog_part2 .main .text2 .text a {
+		padding-left: 20px;
+	}
+	.blog_part2 .main .text2 .text p {
+		margin-left: 10px;
+	}
+	.blog_part2 .main .text2 .text i {
+		margin-left: 0px;
+	}
+	.blog_part2 .main .img3 {
+		width: 18.5%;
+		padding: 15px;
+	}
+	.blog_part2 .main .img3 h4 {
+		width: 96%;
+	}
+	.blog_part2 .main .img3 h5 {
+		width: 100%;
+		line-height: 20px;
+	}
+	.blog_part2 .main .img3 .btn p {
+		margin-top: 0px;
+		padding-left: 10px;
+	}
+	.blog_part2 .main .img3 .text i {
+		margin-left: 10px;
+	}
+	.blog_part2 .main .img3 .text p {
+		margin: 0 1px;
+		margin-top: -1px;
+		font-size: 11px;
+	}
+	.blog_part2 .button {
+		margin-left: 30%;
+	}
+	.blog_part2 .button a h3 {
+		font-size: 15px;
+	}
+/* ==========blog responsive end========== */
+/* ==========contact responsive start========== */
+	#contact-part .main .from {
+		width: 100%;
+	}
+	#contact-part .main .from .massage input {
+		width: 62%;
+	}
+	#contact-part .main .from .massage textarea {
+		width: 62%;
+		height: 190px;
+	}
+/* ==========contact responsive end========== */
+}
+
+@media(min-width: 1200px) and (max-width: 1400px){
+
+	nav .main .item ul li a {
+		font-size: 17px;
+	}
+	nav .main .item ul {
+		padding-left: 100px;
+	}
+	#banner-part img {
+		height: 133%;
+	}
+	h2 {
+		font-size: 32px;
+		font-weight: 600;
+	}
+	.main {
+		padding: 0;
+	}
+	#blog-part .main {
+		padding: 10px 0;
+	}
+	#service-part .main .item {
+		width: 25%;
+		margin: 0 35px;
+	}
+	#contact-part .main .from .massage input {
+		width: 88%;
+	}
+	#contact-part .main .from .massage textarea {
+		width: 88%;
+	}
+	#contact-part .main .follow {
+		bottom: 35px;
+	}
+	#bottom-part {
+		padding: 10px 0;
+	}
+}
+@media(min-width: 1400px) and (max-width: 1600px){
+	#about-part .img .dark {
+		width: 67%;
+	}
+	#blog-part .main .title h2 {
+		margin-left: 38%;
+	}
+	#testimonial-part .main .title h2 {
+		margin-left: 32%;
+	}
+	#about-part .img {
+		margin-left: 20px;
+	}
+	#about-part .text {
+		width: 41%;
+	}
+
+}
